@@ -13,7 +13,7 @@ public class LibraryController {
         this.view = view;
         this.model = model;
         
-        // Set this controller to the view
+        // Set this controller to the view of the MVC model.
         this.view.setController(this);
     }
     
